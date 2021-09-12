@@ -76,7 +76,7 @@ input, select, textarea {
     background-color: white;
 }
 
-.knowledge-about img{
+.knowledge-about>img{
     height: 2rem;
     margin: .5rem;
 }
