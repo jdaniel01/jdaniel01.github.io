@@ -77,30 +77,33 @@ input, select, textarea {
 	box-sizing: border-box;
 	justify-content: center;
     background-color: white;
-	max-height: 5rem;
-	height: 5rem;
-	margin: .5rem;
+	max-height: 6rem;
+	height: 6rem;
 	width: fit-content;
 }
 
 .knowledge_about > img{
-    margin: .5rem;
-	max-height: 5rem;
+	display: flex;
+	max-height: 6rem;
 	width: fit-content;
+	box-sizing: border-box;
+	margin: .5rem;
 }
 
 .developer-skills{
     display: flex;
+	box-sizing: border-box;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
-	padding: 2rem;
     background-color: white;
 }
 
 .developer-specs{
 	width: 100%;
+	padding: 1rem;
+	
 }
 
 /* Basic */
