@@ -328,9 +328,10 @@ input, select, textarea {
 
 	.row {
 		display: flex;
-		flex-wrap: wrap;
+		flex-flow: column wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		width: 100%;
 	}
 
 		.row > * {
@@ -410,7 +411,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 80%;
 		}
 
 		.row > .off-6 {
@@ -2032,7 +2033,15 @@ input, select, textarea {
 			padding: 0;
 		}
 
+.link{
+	border-bottom: none;
+}
+.link:hover{
+	border-bottom: dotted;
+}
+
 /* Icon */
+
 
 	.icon {
 		text-decoration: none;
