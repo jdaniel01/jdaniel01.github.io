@@ -106,10 +106,11 @@ input, select, textarea {
 	
 }
 
-.resume-container{
+div.resume-container{
 	display: flex;
 	justify-content: center;
 	padding-top: 2rem;
+	font-size: 16pt;
 }
 /* Basic */
 
