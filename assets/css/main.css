@@ -108,7 +108,7 @@ input, select, textarea {
 
 div.resume-container{
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	padding-top: 2rem;
 	font-size: 16pt;
 }
